@@ -1,0 +1,93 @@
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(76, 149, 231);
+}
+
+
+.esquerda {
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(76, 149, 231);
+}
+
+.esquerda:hover {
+    filter: brightness(0.9);
+}
+
+.numero1 {
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(76, 149, 231);
+}
+
+.numero1:hover {
+    filter: brightness(0.9);
+}
+
+.numero2 {
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(76, 149, 231);
+}
+
+.numero2:hover {
+    filter: brightness(0.9);
+}
+
+.numero3 {
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(76, 149, 231);
+}
+
+.numero3:hover {
+    filter: brightness(0.9);
+}
+
+.direita {
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(76, 149, 231);
+}
+
+.direita:hover {
+    filter: brightness(0.9);
+}
